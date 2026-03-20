@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Видалення книги{% endblock %}
+
+{% block content %}
+<div class="card shadow-sm">
+    <div class="card-body">
+        <h2>Видалити книгу</h2>
+        <p>Ви впевнені, що хочете видалити: <strong>{{ object.title }}</strong>?</p>
+
+        <form method="post">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-danger">Так, видалити</button>
+            <a href="{% url 'catalog:book_list' %}" class="btn btn-secondary">Скасувати</a>
+        </form>
+    </div>
+</div>
+{% endblock %}
