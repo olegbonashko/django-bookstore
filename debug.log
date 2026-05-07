@@ -7,3 +7,145 @@ Watching for file changes with StatReloader
 Request: GET / at 2026-03-27 14:36:31.847184
 Response status: 200
 "GET / HTTP/1.1" 200 4356
+Watching for file changes with StatReloader
+Request: GET /__debug__/ at 2026-03-27 14:39:08.073673
+Response status: 404
+Not Found: /__debug__/
+"GET /__debug__/ HTTP/1.1" 404 5655
+Request: GET /apple-touch-icon-precomposed.png at 2026-03-27 14:39:10.521130
+Request: GET /apple-touch-icon.png at 2026-03-27 14:39:10.521987
+Request: GET /favicon.ico at 2026-03-27 14:39:10.522843
+Response status: 404
+Response status: 404
+Not Found: /apple-touch-icon-precomposed.png
+Response status: 404
+Not Found: /apple-touch-icon.png
+Not Found: /favicon.ico
+"GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 3925
+"GET /apple-touch-icon.png HTTP/1.1" 404 3889
+"GET /favicon.ico HTTP/1.1" 404 3862
+Request: GET / at 2026-03-27 14:39:34.370497
+Response status: 200
+"GET / HTTP/1.1" 200 4356
+Request: GET / at 2026-03-27 14:39:35.803432
+Response status: 200
+"GET / HTTP/1.1" 200 4356
+Request: POST /admin/users/customuser/add/ at 2026-03-27 14:39:38.993293
+Response status: 200
+"POST /admin/users/customuser/add/ HTTP/1.1" 200 14842
+Request: GET /admin/jsi18n/ at 2026-03-27 14:39:39.059392
+Response status: 200
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Request: GET /admin/ at 2026-03-27 14:39:40.669763
+Response status: 200
+"GET /admin/ HTTP/1.1" 200 8641
+/Users/oleh/PycharmProjects/HomeWork10/bookstore/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Request: GET / at 2026-03-27 14:40:57.011822
+Response status: 200
+"GET / HTTP/1.1" 200 4356
+Request: GET / at 2026-03-27 14:40:59.037200
+Response status: 200
+"GET / HTTP/1.1" 200 4356
+Request: GET / at 2026-03-27 14:40:59.918940
+Response status: 200
+"GET / HTTP/1.1" 200 4356
+/Users/oleh/PycharmProjects/HomeWork10/bookstore/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Request: GET / at 2026-03-27 14:41:28.859392
+Response status: 200
+"GET / HTTP/1.1" 200 4356
+Request: GET / at 2026-03-27 14:41:29.332718
+Response status: 200
+"GET / HTTP/1.1" 200 4356
+Watching for file changes with StatReloader
+Request: GET / at 2026-05-07 09:19:34.996841
+Response status: 200
+"GET / HTTP/1.1" 200 4389
+"GET /static/css/style.css HTTP/1.1" 200 75
+Request: GET /apple-touch-icon-precomposed.png at 2026-05-07 09:19:35.458062
+Response status: 404
+Not Found: /apple-touch-icon-precomposed.png
+"GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 3925
+Request: GET /apple-touch-icon.png at 2026-05-07 09:19:35.716357
+Response status: 404
+Not Found: /apple-touch-icon.png
+"GET /apple-touch-icon.png HTTP/1.1" 404 3889
+Request: GET /favicon.ico at 2026-05-07 09:19:35.747688
+Response status: 404
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3862
+Watching for file changes with StatReloader
+Request: GET / at 2026-05-07 09:22:33.817634
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "catalog_book" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "catalog_book"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/list.py", line 178, in get
+    context = self.get_context_data()
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+  File "/usr/local/lib/python3.10/site-packages/django/views/generic/list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+  File "/usr/local/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/usr/local/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/usr/local/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/usr/local/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 606, in count
+    return self.query.get_count(using=self.db)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 646, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 628, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "catalog_book" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "catalog_book"
+                                          ^
+
+Response status: 500
+"GET / HTTP/1.1" 500 155481
+Watching for file changes with StatReloader
+Request: GET / at 2026-05-07 09:24:29.317409
+Response status: 200
+"GET / HTTP/1.1" 200 2631
+"GET /static/css/style.css HTTP/1.1" 200 75
+Watching for file changes with StatReloader
