@@ -50,6 +50,10 @@
                         <strong>Ціна:</strong> {{ book.price }} грн<br>
                         <strong>На складі:</strong> {{ book.stock }}
                     </p>
+                    <a href="{% url 'orders:cart_add' book.id %}"
+                       class="btn btn-success">
+                        Add to cart
+                    </a>
                     <a href="{% url 'catalog:book_detail' book.pk %}" class="btn btn-outline-primary btn-sm">Детальніше</a>
                     <a href="{% url 'catalog:book_update' book.pk %}" class="btn btn-outline-warning btn-sm">Редагувати</a>
                     <a href="{% url 'catalog:book_delete' book.pk %}" class="btn btn-outline-danger btn-sm">Видалити</a>

@@ -7,4 +7,5 @@ urlpatterns = [
     path("", include("catalog.urls", namespace="catalog")),
     path("users/", include("users.urls", namespace="users")),
     path('__debug__/', include(debug_toolbar.urls)),
+    path('orders/', include('orders.urls', namespace='orders')),
 ]

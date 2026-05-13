@@ -149,3 +149,168 @@ Response status: 200
 "GET / HTTP/1.1" 200 2631
 "GET /static/css/style.css HTTP/1.1" 200 75
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Request: GET / at 2026-05-07 09:41:08.622750
+Response status: 200
+"GET / HTTP/1.1" 200 2631
+Request: GET /users/login/ at 2026-05-07 09:41:11.226727
+Response status: 200
+"GET /users/login/ HTTP/1.1" 200 2536
+Request: POST /users/login/ at 2026-05-07 09:41:18.732316
+Response status: 200
+"POST /users/login/ HTTP/1.1" 200 2698
+Request: POST /users/login/ at 2026-05-07 09:41:23.219663
+Response status: 200
+"POST /users/login/ HTTP/1.1" 200 2698
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Request: GET / at 2026-05-07 09:47:13.727217
+Response status: 200
+"GET / HTTP/1.1" 200 2631
+Request: GET /users/login/ at 2026-05-07 09:47:17.673952
+Response status: 200
+"GET /users/login/ HTTP/1.1" 200 2536
+Request: POST /users/login/ at 2026-05-07 09:47:23.773580
+Response status: 200
+"POST /users/login/ HTTP/1.1" 200 2698
+Request: GET / at 2026-05-07 09:48:01.809543
+Response status: 200
+"GET / HTTP/1.1" 200 2631
+Request: POST /users/login/ at 2026-05-07 09:49:04.408819
+Response status: 200
+"POST /users/login/ HTTP/1.1" 200 2698
+Request: GET /users/login/ at 2026-05-07 09:49:08.913556
+Response status: 200
+"GET /users/login/ HTTP/1.1" 200 2536
+Request: GET /book/create/ at 2026-05-07 09:49:09.408233
+Response status: 200
+"GET /book/create/ HTTP/1.1" 200 3234
+Request: GET /users/login/ at 2026-05-07 09:49:21.847587
+Response status: 200
+"GET /users/login/ HTTP/1.1" 200 2536
+Request: POST /users/login/ at 2026-05-07 09:49:59.519493
+Response status: 302
+"POST /users/login/ HTTP/1.1" 302 0
+Request: GET / at 2026-05-07 09:49:59.904464
+Response status: 200
+"GET / HTTP/1.1" 200 2599
+Request: GET /admin/ at 2026-05-07 09:50:07.090419
+Response status: 200
+"GET /admin/ HTTP/1.1" 200 9297
+"GET /static/admin/css/base.css HTTP/1.1" 200 22120
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+Request: GET /admin/catalog/category/ at 2026-05-07 09:50:11.217659
+Response status: 200
+"GET /admin/catalog/category/ HTTP/1.1" 200 10965
+Request: GET /admin/jsi18n/ at 2026-05-07 09:50:11.295079
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+Response status: 200
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+Request: GET /admin/catalog/category/add/ at 2026-05-07 09:50:13.553026
+Response status: 200
+"GET /admin/catalog/category/add/ HTTP/1.1" 200 16005
+Request: GET /admin/jsi18n/ at 2026-05-07 09:50:13.606067
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+"GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11973
+Response status: 200
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 537
+Request: POST /admin/catalog/category/add/ at 2026-05-07 09:50:16.680584
+Response status: 302
+"POST /admin/catalog/category/add/ HTTP/1.1" 302 0
+Request: GET /admin/catalog/category/ at 2026-05-07 09:50:16.742949
+Response status: 200
+"GET /admin/catalog/category/ HTTP/1.1" 200 13048
+Request: GET /admin/jsi18n/ at 2026-05-07 09:50:16.783359
+Response status: 200
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+Request: GET /admin/catalog/book/add/ at 2026-05-07 09:50:19.087466
+Response status: 200
+"GET /admin/catalog/book/add/ HTTP/1.1" 200 15380
+Request: GET /admin/jsi18n/ at 2026-05-07 09:50:19.125845
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+Response status: 200
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Request: POST /admin/catalog/book/add/ at 2026-05-07 09:50:33.491149
+Response status: 302
+"POST /admin/catalog/book/add/ HTTP/1.1" 302 0
+Request: GET /admin/catalog/book/ at 2026-05-07 09:50:33.539035
+Response status: 200
+"GET /admin/catalog/book/ HTTP/1.1" 200 14377
+Request: GET /admin/jsi18n/ at 2026-05-07 09:50:33.599077
+Response status: 200
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Request: GET / at 2026-05-07 09:50:38.801465
+Response status: 200
+"GET / HTTP/1.1" 200 3604
+Request: GET /orders/add/1/ at 2026-05-07 09:50:40.844712
+Response status: 302
+"GET /orders/add/1/ HTTP/1.1" 302 0
+Request: GET /orders/cart/ at 2026-05-07 09:50:40.873269
+Response status: 200
+"GET /orders/cart/ HTTP/1.1" 200 1831
+Request: GET /orders/remove/1/ at 2026-05-07 09:50:42.762325
+Response status: 302
+"GET /orders/remove/1/ HTTP/1.1" 302 0
+Request: GET /orders/cart/ at 2026-05-07 09:50:42.792471
+Response status: 200
+"GET /orders/cart/ HTTP/1.1" 200 1597
+Request: GET /orders/cart/ at 2026-05-07 12:00:29.086307
+Response status: 200
+"GET /orders/cart/ HTTP/1.1" 200 1597
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Request: GET /orders/cart/ at 2026-05-13 14:17:46.346420
+Response status: 200
+"GET /orders/cart/ HTTP/1.1" 200 1672
+"GET /static/css/style.css HTTP/1.1" 200 75
+Request: GET /apple-touch-icon-precomposed.png at 2026-05-13 14:17:47.070626
+Response status: 404
+Not Found: /apple-touch-icon-precomposed.png
+"GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 4075
+Request: GET /apple-touch-icon.png at 2026-05-13 14:17:47.423479
+Response status: 404
+Not Found: /apple-touch-icon.png
+"GET /apple-touch-icon.png HTTP/1.1" 404 4039
+Request: GET /orders/create/ at 2026-05-13 14:17:48.816990
+Response status: 200
+"GET /orders/create/ HTTP/1.1" 200 2321
+Request: GET / at 2026-05-13 14:17:52.772756
+Response status: 200
+"GET / HTTP/1.1" 200 3604
+Request: GET /orders/add/1/ at 2026-05-13 14:17:54.146119
+Response status: 302
+"GET /orders/add/1/ HTTP/1.1" 302 0
+Request: GET /orders/cart/ at 2026-05-13 14:17:54.172421
+Response status: 200
+"GET /orders/cart/ HTTP/1.1" 200 1906
+Request: GET /orders/create/ at 2026-05-13 14:17:58.169444
+Response status: 200
+"GET /orders/create/ HTTP/1.1" 200 2321

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Cart</h2>
+
+{% for item in cart %}
+    <div class="card mb-3 p-3">
+        <h5>{{ item.book.title }}</h5>
+        <p>Quantity: {{ item.quantity }}</p>
+        <p>Total: ${{ item.total_price }}</p>
+
+        <a href="{% url 'orders:cart_remove' item.book.id %}"
+           class="btn btn-danger">
+            Remove
+        </a>
+    </div>
+{% endfor %}
+
+<h3>Total: ${{ cart.get_total_price }}</h3>
+
+<a href="{% url 'orders:order_create' %}"
+   class="btn btn-primary">
+
+    Checkout
+
+</a>
+
+{% endblock %}
